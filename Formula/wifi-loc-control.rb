@@ -11,10 +11,10 @@ class WifiLocControl < Formula
   def install
     bin.install "wifi-loc-control.sh" => "wifi-loc-control"
 
-    # modify the plist file
+    # Modify the Program Path to brew installed one
     inreplace "WifiLocControl.plist", "/usr/local/bin/wifi-loc-control.sh", "#{bin}/wifi-loc-control"
 
-    # install the plist file
+    # Install the plist file
     prefix.install "WifiLocControl.plist" => "application.com.wifi-loc-control.plist"
   end
 
