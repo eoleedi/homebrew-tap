@@ -6,7 +6,7 @@ class TimetreeExporter < Formula
   url "https://files.pythonhosted.org/packages/3b/da/03876c409c98ef6a8e32b6f04370adc473ef9b1992adf139d5d1248c5588/timetree_exporter-0.4.1.tar.gz"
   sha256 "638d88bd1ccfe3c59c209eca9a9eb16ad9175bbaa6e6a212e05e43ca1dcb3879"
   license "MIT"
-  head "https://github.com/eoleedi/TimeTree-Exporter", branch: "main"
+  head "https://github.com/eoleedi/TimeTree-Exporter.git", branch: "main"
 
   depends_on "python@3.13"
 
