@@ -4,7 +4,6 @@ class WifiLocControl < Formula
   url "https://github.com/vborodulin/wifi-loc-control/archive/refs/tags/1.0.2.tar.gz"
   sha256 "334c2d63c1c371cebdc20090d242f3d4f8a01ea20bd8d0134e050bf413a12f09"
   license "MIT"
-  version "1.0.2"
 
   depends_on :macos
 
