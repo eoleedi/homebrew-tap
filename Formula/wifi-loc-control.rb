@@ -1,8 +1,8 @@
 class WifiLocControl < Formula
   desc "Change macOS network location based on the Wi-Fi network name (SSID)"
   homepage "https://github.com/vborodulin/wifi-loc-control"
-  url "https://github.com/vborodulin/wifi-loc-control/archive/refs/tags/1.0.4.tar.gz"
-  sha256 "fc5f468a605d56bd132b55106a594e6452af9394cd97d88d89e4318ef57c27b3"
+  url "https://github.com/vborodulin/wifi-loc-control/archive/refs/tags/1.0.5.tar.gz"
+  sha256 "13ef3b7611d519a1c5772432b64355c35d45df03af43e9afd260430d309664b6"
   license "MIT"
 
   depends_on :macos
