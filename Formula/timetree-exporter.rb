@@ -66,6 +66,6 @@ class TimetreeExporter < Formula
   end
 
   test do
-    assert_match "Usage:", shell_output("#{bin}/timetree-exporter --help")
+    assert_match "usage:", shell_output("#{bin}/timetree-exporter --help")
   end
 end
