@@ -15,3 +15,9 @@ This is a Homebrew tap for interetsing tools that are not in the main Homebrew r
     ```bash
     brew install eoleedi/tap/timetree-exporter
     ```
+
+3. Install [YTM Widget](https://github.com/kizato1018/ytm-widget)
+
+    ```bash
+    brew install eoleedi/tap/ytm-widget
+    ```
