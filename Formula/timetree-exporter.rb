@@ -5,8 +5,8 @@ class TimetreeExporter < Formula
   homepage "https://github.com/eoleedi/TimeTree-Exporter"
   url "https://files.pythonhosted.org/packages/a1/3a/60c839edb426bddd029aa07c3303fc8b90e9b1d046bf1b3da78361d0329f/timetree_exporter-0.7.1.tar.gz"
   sha256 "f488e7c68f35f2c6957864b948211d34aeb517d4f7af55b5e31519b0e80521eb"
-  revision 1
   license "MIT"
+  revision 1
   head "https://github.com/eoleedi/TimeTree-Exporter.git", branch: "main"
 
   bottle do
