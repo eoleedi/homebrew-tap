@@ -9,9 +9,10 @@ class TimetreeExporter < Formula
   head "https://github.com/eoleedi/TimeTree-Exporter.git", branch: "main"
 
   bottle do
-    root_url "https://github.com/eoleedi/homebrew-tap/releases/download/bottles"
-    rebuild 1
-    sha256 cellar: :any_skip_relocation, arm64_tahoe: "a594eba2291c54d8c15ffb11d108f7c0046f1e44ab768942f0eda18f12324294"
+    root_url "https://github.com/eoleedi/homebrew-tap/releases/download/timetree-exporter-0.7.1"
+    sha256 cellar: :any_skip_relocation, arm64_tahoe:  "056140efafa23533b0cff4058a8a8674c12b8c3f3ea9c8578ebcd54546700ef8"
+    sha256 cellar: :any_skip_relocation, sequoia:      "792421de31f98a0b0c96dce989755708b8d6b4d87c1bcf04816e8c2263d2ff0d"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "655da600d39c2c0551461963b8c28dedd3986b3fa6753d88afbd10775a6c330e"
   end
 
   depends_on "python@3.13"
