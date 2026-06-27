@@ -17,6 +17,11 @@ cask "flow-translate" do
 
   app "FlowTranslate.app"
 
+  postflight do
+    system_command "/usr/bin/xattr",
+                   args: ["-dr", "com.apple.quarantine", "#{appdir}/FlowTranslate.app"]
+  end
+
   zap trash: [
     "~/Library/Application Support/FlowTranslate",
     "~/Library/Preferences/dev.flowtranslate.app.plist",
