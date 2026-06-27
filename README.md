@@ -15,3 +15,9 @@ This is a Homebrew tap for interetsing tools that are not in the main Homebrew r
     ```bash
     brew install eoleedi/tap/timetree-exporter
     ```
+
+3. Install [Flow Translate](https://github.com/huang422/EdgeAI-Flow-Translate)
+
+    ```bash
+    brew install --cask eoleedi/tap/flow-translate
+    ```
