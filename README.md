@@ -16,6 +16,7 @@ Just type:
 
 ```bash
 brew tap eoleedi/tap
+brew trust eoleedi/tap
 ```
 
 This will allow you to install formulae and casks from this tap.
