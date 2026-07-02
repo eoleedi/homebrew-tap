@@ -9,13 +9,13 @@ class TimetreeExporter < Formula
   head "https://github.com/eoleedi/TimeTree-Exporter.git", branch: "main"
 
   bottle do
-    root_url "https://github.com/eoleedi/homebrew-tap/releases/download/timetree-exporter-0.7.2"
-    sha256 cellar: :any_skip_relocation, arm64_tahoe:   "5db3b0d540531719b287360dfda595c59548e7a84fd5488f759c6970da9df5b9"
-    sha256 cellar: :any_skip_relocation, arm64_sequoia: "6c7e1901ed695561338e70148f12b4182cb63fac63e2ea80841850b6d606b3ba"
-    sha256 cellar: :any_skip_relocation, arm64_sonoma:  "3467884c0255baa3da52b9c713612e7194d5d107a8a0118802bae69e2c691311"
-    sha256 cellar: :any_skip_relocation, sequoia:       "7bdd3f8e7073455d974fab43da49636d1363700948c2e48c0838d97d236df2dc"
-    sha256 cellar: :any_skip_relocation, arm64_linux:   "833bc60e82a916485c658969700ca4f89c13791e372021d0a43e097d3adfcd64"
-    sha256 cellar: :any_skip_relocation, x86_64_linux:  "70f095215a7c25c731dfa4f2c8918338d640be8afe529cb3443e05aa8fd8e649"
+    root_url "https://github.com/eoleedi/homebrew-tap/releases/download/timetree-exporter-0.8.0"
+    sha256 cellar: :any_skip_relocation, arm64_tahoe:   "724f1b630240b01bbb0d3c9d6ec71d65490d775e5e23cf1c104f5aafa71d3d20"
+    sha256 cellar: :any_skip_relocation, arm64_sequoia: "05c68a6f4eaa712a38127a49d2316f941418ed139b002562786e18a68ffa5e5b"
+    sha256 cellar: :any_skip_relocation, arm64_sonoma:  "8c231d458ee5b5e0d964fadd79cad717d14e001ab423fd2f5dff4274ab20366a"
+    sha256 cellar: :any_skip_relocation, sequoia:       "aa349b36d85c501701741db9e803e193d66cff4d71edbc424c837f56e9d5616d"
+    sha256 cellar: :any_skip_relocation, arm64_linux:   "0b62c6df119e5baa488b3864beff571c434d628a99826cfbfadde22b2484e77a"
+    sha256 cellar: :any_skip_relocation, x86_64_linux:  "3f01d4673035c297d028d383a881ef0e01ae2b4288dd8bf98f5a542687062e3c"
   end
 
   depends_on "python@3.13"
