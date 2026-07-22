@@ -33,10 +33,21 @@ brew install --cask eoleedi/tap/<cask>
 <details>
   <summary>Formulae list</summary>
   <ul>
+    <li><a href="#qrrs">qrrs</a></li>
     <li><a href="#timetree-exporter">timetree-exporter</a></li>
     <li><a href="#wifi-loc-control">wifi-loc-control</a></li>
   </ul>
 </details>
+
+### `qrrs`
+
+[![Source](https://img.shields.io/badge/cureforpain-qrrs-grey?logo=github&color=181717)](https://github.com/cureforpain/qrrs) [![Formula](https://img.shields.io/badge/Formula-qrrs-grey?logo=ruby&color=FBB040&logoColor=CC342D)](Formula/qrrs.rb)
+
+CLI QR code generator and reader.
+
+```bash
+brew install eoleedi/tap/qrrs
+```
 
 ### `timetree-exporter`
 
