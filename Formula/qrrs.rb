@@ -1,7 +1,6 @@
 class Qrrs < Formula
   desc "CLI QR code generator and reader"
   homepage "https://github.com/cureforpain/qrrs"
-  version "0.1.11"
   license "MIT"
 
   on_macos do
