@@ -17,9 +17,9 @@ cask "flow-translate" do
 
   app "FlowTranslate.app"
 
-  postflight do
-    system_command "/usr/bin/xattr",
-                   args: ["-dr", "com.apple.quarantine", "#{appdir}/FlowTranslate.app"]
+  postflight_steps do
+    run "/usr/bin/xattr",
+        args: ["-dr", "com.apple.quarantine", "{{appdir}}/FlowTranslate.app"]
   end
 
   zap trash: [
