@@ -3,8 +3,8 @@ class TimetreeExporter < Formula
 
   desc "Tool for exporting TimeTree Calendar and converting to iCal format (.ics)"
   homepage "https://github.com/eoleedi/TimeTree-Exporter"
-  url "https://files.pythonhosted.org/packages/5a/69/cb752f2ee610fbbf68c3496d6c16c07dd4ed379b88257cf098b0957c32ba/timetree_exporter-0.8.0.tar.gz"
-  sha256 "159143011542e7ee2a03778ba17cf8437af433b090b6aaa4327e5eb3e5ba4fed"
+  url "https://files.pythonhosted.org/packages/54/54/98cf22711f2fed3f60030a4ca9f5a47970f50329cf04097094d1aa9dd9ba/timetree_exporter-0.9.0.tar.gz"
+  sha256 "30a4e31a7d56b03ccc022ea9e75f3696e680128d127797b5e048cde71e21533b"
   license "MIT"
   head "https://github.com/eoleedi/TimeTree-Exporter.git", branch: "main"
 
@@ -21,23 +21,23 @@ class TimetreeExporter < Formula
   depends_on "python@3.13"
 
   resource "certifi" do
-    url "https://files.pythonhosted.org/packages/c9/c7/424b75da314c1045981bd9777432fad05a9e0c69daa4ed7e308bbaffe405/certifi-2026.6.17.tar.gz"
-    sha256 "024c88eeec92ca068db80f02b8b07c9cef7b9fe261d1d535abfd5abd6f6af432"
+    url "https://files.pythonhosted.org/packages/a3/c2/24167ea9858356b47a87a50d39908bfdb72ceeefe0041586e704e5376b3a/certifi-2026.7.22.tar.gz"
+    sha256 "741e2c3b351ddf169a738da9f2c048608ff7f2c5cc02f1ebc6b118bb090d5d55"
   end
 
   resource "charset-normalizer" do
-    url "https://files.pythonhosted.org/packages/e7/a1/67fe25fac3c7642725500a3f6cfe5821ad557c3abb11c9d20d12c7008d3e/charset_normalizer-3.4.7.tar.gz"
-    sha256 "ae89db9e5f98a11a4bf50407d4363e7b09b31e55bc117b4f7d80aab97ba009e5"
+    url "https://files.pythonhosted.org/packages/e5/3f/143b048436775b0f76ac3eec145c019e8173ccc2885c8f20319b996d5e83/charset_normalizer-3.5.1.tar.gz"
+    sha256 "6117b84ea48435e5356dc737f5121485c30920ba43375fa7b434fd753df0eac3"
   end
 
   resource "icalendar" do
-    url "https://files.pythonhosted.org/packages/2e/6c/3a20edd47656272f2d4016f6680f5bec6e2eb5ec7a23db97ebd1c15c384b/icalendar-7.2.0.tar.gz"
-    sha256 "32dacc396101825b82f9f1bbdf691c02be613130d5ab7a457e553fcd20959fdd"
+    url "https://files.pythonhosted.org/packages/47/2b/1bbf82d316df18c3331d9a06228819c8a5814ceda545a3e9980e52ffce1b/icalendar-7.3.0.tar.gz"
+    sha256 "7bd001c8e648205e1bde5c6a5b77096598e8d0893dcf57755c6c597635620132"
   end
 
   resource "idna" do
-    url "https://files.pythonhosted.org/packages/cd/63/9496c57188a2ee585e0f1db071d75089a11e98aa86eb99d9d7618fc1edce/idna-3.18.tar.gz"
-    sha256 "ffb385a7e039654cef1ab9ef32c6fafe283c0c0467bba1d9029738ce4a14a848"
+    url "https://files.pythonhosted.org/packages/5f/f7/abb373e5757eaec4b922b92f97ec8d6d7e057cf06778247604fbc4e7c3f3/idna-3.19.tar.gz"
+    sha256 "5e0811a4383b21dc5838069f801c4fb62113b7447663d2530d2bd6e77b49bf15"
   end
 
   resource "pwinput-eoleedi" do
@@ -61,8 +61,8 @@ class TimetreeExporter < Formula
   end
 
   resource "tzdata" do
-    url "https://files.pythonhosted.org/packages/ba/19/1b9b0e29f30c6d35cb345486df41110984ea67ae69dddbc0e8a100999493/tzdata-2026.2.tar.gz"
-    sha256 "9173fde7d80d9018e02a662e168e5a2d04f87c41ea174b139fbef642eda62d10"
+    url "https://files.pythonhosted.org/packages/92/ff/5a28bdfd8c3ebec42564ac7d0e54ca3db65044a9314a97f9564fa7a1e926/tzdata-2026.3.tar.gz"
+    sha256 "4a1518b8993086a7982523e071643f3c0e5f213e75b21318e78bcabfff9d1415"
   end
 
   resource "urllib3" do
