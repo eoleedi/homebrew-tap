@@ -33,11 +33,32 @@ brew install --cask eoleedi/tap/<cask>
 <details>
   <summary>Formulae list</summary>
   <ul>
+    <li><a href="#mac-upkeep">mac-upkeep</a></li>
     <li><a href="#qrrs">qrrs</a></li>
     <li><a href="#timetree-exporter">timetree-exporter</a></li>
     <li><a href="#wifi-loc-control">wifi-loc-control</a></li>
   </ul>
 </details>
+
+### `mac-upkeep`
+
+[![Source](https://img.shields.io/badge/eoleedi-mac--upkeep-grey?logo=github&color=181717)](https://github.com/eoleedi/mac-upkeep) [![Formula](https://img.shields.io/badge/Formula-mac--upkeep-grey?logo=ruby&color=FBB040&logoColor=CC342D)](Formula/mac-upkeep.rb)
+
+Terminal interface for running macOS maintenance tasks concurrently. Requires macOS and builds from source with Go.
+
+```bash
+brew install eoleedi/tap/mac-upkeep
+mac-upkeep --version
+```
+
+Create a configuration without overwriting an existing one:
+
+```bash
+mkdir -p ~/.config/mac-upkeep
+cp -n "$(brew --prefix mac-upkeep)/share/mac-upkeep/config.example.toml" ~/.config/mac-upkeep/config.toml
+```
+
+Review the configuration and disable unwanted tasks before running `mac-upkeep`: enabled tasks start immediately. Install each task's package manager separately. Existing `~/.config/mac-upkeep/config.toml` files work unchanged.
 
 ### `qrrs`
 
