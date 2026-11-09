@@ -1,6 +1,6 @@
 cask "flow-translate" do
-  version "1.4.0"
-  sha256 "29d93a5dd576ed32ea5147afa8b53a0f2e52446eeaef8fdd554a48d59c53555d"
+  version "1.4.1"
+  sha256 "242a19cdc16505c1dbed4cf686c4567194b3d393a6a89ce5661585109f2b74a9"
 
   url "https://github.com/huang422/EdgeAI-Flow-Translate/releases/download/v#{version}/FlowTranslate.dmg"
   name "Flow Translate"
